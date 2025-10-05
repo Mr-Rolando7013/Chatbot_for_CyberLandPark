@@ -1,0 +1,243 @@
+{
+  "Objective A": {
+    "Principle A1 - Governance": {
+      "IGPs": [
+        {
+          "id": "A1.1",
+          "name": "Board Direction",
+          "text": "The organisation has an effective organisational security management led at board level and articulated clearly in corresponding policies",
+          "status": {
+            "Achieved": [
+              "Your organisation's approach and policy relating to the security of networks and information systems supporting the operation of essential functions are owned and managed at board level. These are communicated, in a meaningful way, to risk management decision-makers across the organisation.",
+              "Regular board discussions on the security of network and information systems supporting the operation of your essential function take place, based on timely and accurate information and informed by expert guidance.",
+              "There is a board-level individual who has overall accountability for the security of networks and information systems and drives regular discussion at board-level.",
+              "Direction set at board level is translated into effective organisational practices that direct and control the security of the networks and information systems supporting your essential function."
+            ],
+            "Partially Achieved": [],
+            "Not Achieved": [
+              "The security of network and information systems related to the operation of essential functions is not discussed or reported on regularly at boardlevel.",
+              "Board-level discussions on the security of networks and information systems are based on partial or out-of-date information, without the benefit of expert guidance.",
+              "The security of networks and information systems supporting your essential functions are not driven effectively by the direction set at board level.",
+              "Senior management or other pockets of the organisation consider themselves exempt from some policies or expect special accommodations to be made."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        },
+        {
+          "id": "A1.2",
+          "name": "Roles and Responsibilities",
+          "text": "The organisation has established roles and responsibilities for the security of networks and information systems at all levels, with clear and well-understood channels for communicating and escalating risks",
+          "status": {
+            "Achieved": [
+              "Necessary roles and responsibilities for the security of networks and information systems supporting your essential function have been identified. These are reviewed periodically to ensure they remain fit for purpose.",
+              "Appropriately capable and knowledgeable staff fill those roles and are given the time, authority, and resources to carry out their duties",
+              "There is clarity on who in your organisation has overall accountability for the security of the networks and information systems supporting your essential function."
+            ],
+            "Partially Achieved": [],
+            "Not Achieved": [
+              "Key roles are missing, left vacant, or fulfilled on an ad-hoc or informal basis.",
+              "Staff are assigned security responsibilities but without adequate authority or resources to fulfil them",
+              "Staff are unsure what their responsibilities are for the security of the essential function."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        },
+        {
+          "id": "A1.3",
+          "name": "Decision Making",
+          "text": "The organisation takes appropriate steps to identify, assess and understand security risks to the network and information systems supporting the operation of essential functions. This includes an overall organisational approach to risk management.",
+          "status": {
+            "Achieved": [
+              "Senior management have visibility of key risk decisions made throughout the organisation.",
+              "Risk management decision-makers understand their responsibilities for making effective and timely decisions in the context of the risk appetite regarding the essential function, as set by senior management.",
+              "Risk management decision-making is delegated and escalated where necessary, across the organisation, to people who have the skills, knowledge, tools, and authority they need.",
+              "Risk management decisions are periodically reviewed to ensure their continued relevance and validity."
+            ],
+            "Partially Achieved": [],
+            "Not Achieved": [
+              "What should be relatively straightforward risk decisions are constantly referred up the chain, or not made.",
+              "Risks are resolved informally (or ignored) at a local level when the use of a more formal risk reporting mechanism would be more appropriate.",
+              "Decision-makers are unsure of what senior management's risk appetite is, or only understand it in vague terms such as 'averse' or 'cautious'.",
+              "Organisational structure causes risk decisions to be made in isolation. (e.g. engineering and IT don't talk to each other about risk).",
+              "Risk priorities are too vague to make meaningful distinctions between them. (e.g. almost all risks are rated 'medium' or 'amber')."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        }
+      ]
+    },
+    "Principle A2 - Risk Management": {
+      "IGPs": [
+        {
+          "id": "A2.1",
+          "name": "Risk Management Process",
+          "text": "Your organisation has effective internal processes for managing risks to the security of network and information systems related to the operation of essential functions and communicating associated activities.",
+          "status": {
+            "Achieved": [
+              "Your organisational process ensures that security risks to networks and information systems relevant to essential functions are identified, analysed, prioritised, and managed.",
+              "Your approach to risk is focused on the possibility of adverse impact to your essential function, leading to a detailed understanding of how such impact might arise as a consequence of possible attacker actions and the security properties of your networks and information systems.",
+              "Your risk assessments are based on a clearly understood set of threat assumptions, informed by an up-to-date understanding of security threats to your essential function and your sector.",
+              "Your risk assessments are informed by an understanding of the vulnerabilities in the networks and information systems supporting your essential function.",
+              "The output from your risk management process is a clear set of security requirements that will address the risks in line with your organisational approach to security.",
+              "Significant conclusions reached in the course of your risk management process are communicated to key security decision-makers and accountable individuals.",
+              "Your risk assessments are dynamic and updated in the light of relevant changes which may include technical changes to networks and information systems, change of use and new threat information.",
+              "The effectiveness of your risk management process is reviewed periodically, and improvements made as required.",
+              "You perform detailed threat analysis and understand how this applies to your organisation in the context of the threat to your sector and the wider CNI."
+            ],
+            "Partially Achieved": [
+              "Your organisational process ensures that security risks to networks and information systems relevant to essential functions are identified, analysed, prioritised, and managed.",
+              "Your risk assessments are informed by an understanding of the vulnerabilities in the networks and information systems supporting your essential function.",
+              "The output from your risk management process is a clear set of security requirements that will address the risks in line with your organisational approach to security.",
+              "Significant conclusions reached in the course of your risk management process are communicated to key security decision-makers and accountable individuals",
+              "You conduct risk assessments when significant events potentially affect the essential function, such as replacing a system or a change in the cyber security threat.",
+              "You perform threat analysis and understand how generic threats apply to your organisation."
+            ],
+            "Not Achieved": [
+              "Risk assessments are not based on a clearly defined set of threat assumptions.",
+              "Risk assessment outputs are too complex or unwieldy to be consumed by decision-makers and are not effectively communicated in a clear and timely manner.",
+              "Risk assessments for critical systems are a 'one-off' activity or not done at all.",
+              "The security elements of projects or programmes are solely dependent on the completion of a risk management assessment without any regard to the outcomes.",
+              "There is no systematic process in place to ensure that identified security risks are managed effectively.",
+              "Systems are assessed in isolation, without consideration of dependencies and interactions with other systems. (e.g. interactions between IT and OT environments).",
+              "Security requirements and mitigations are arbitrary or are applied from a control catalogue without consideration of how they contribute to the security of the essential function.",
+              "Risks remain unresolved on a register for prolonged periods of time awaiting senior decisionmaking or resource allocation to resolve."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        },
+        {
+          "id": "A2.2",
+          "name": "Assurance",
+          "text": "You have gained confidence in the effectiveness of the security of your technology, people, and processes relevant to essential functions",
+          "status": {
+            "Achieved": [
+              "You validate that the security measures in place to protect the networks and information systems are effective and remain effective for the lifetime over which they are needed.",
+              "You understand the assurance methods available to you and choose appropriate methods to gain confidence in the security of essential functions.",
+              "Your confidence in the security as it relates to your technology, people, and processes can be justified to, and verified by, a third party.",
+              "Security deficiencies uncovered by assurance activities are assessed, prioritised and remedied when necessary in a timely and effective way.",
+              "The methods used for assurance are reviewed to ensure they are working as intended and remain the most appropriate method to use."
+            ],
+            "Partially Achieved": [],
+            "Not Achieved": [
+              "A particular product or service is seen as a 'silver bullet' and vendor claims are taken at face value.",
+              "Assurance methods are applied without appreciation of their strengths and limitations, such as the risks of penetration testing in operational environments.",
+              "Assurance is assumed because there have been no known problems to date."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        }
+      ]
+    },
+    "Principle A3 - Asset Management": {
+      "IGPs": [
+        {
+          "id": "A3.1",
+          "name": "Asset Management",
+          "text": "Everything required to deliver, maintain or support networks and information systems necessary for the operation of essential functions is determined and understood. This includes data, people and systems, as well as any supporting infrastructure (such as power or cooling).",
+          "status": {
+            "Achieved": [
+              "All assets relevant to the secure operation of essential functions are identified and inventoried (at a suitable level of detail). The inventory is kept up-to-date.",
+              "Dependencies on supporting infrastructure (e.g. power, cooling etc) are recognised and recorded.",
+              "You have prioritised your assets according to their importance to the operation of the essential function.",
+              "You have assigned responsibility for managing physical assets.",
+              "Assets relevant to essential functions are managed with cyber security in mind throughout their lifecycle, from creation through to eventual decommissioning or disposal."
+            ],
+            "Partially Achieved": [],
+            "Not Achieved": [
+              "Inventories of assets relevant to the essential function are incomplete, non-existent, or inadequately detailed.",
+              "Only certain domains or types of asset are documented and understood. Dependencies between assets are not understood (such as the dependencies between IT and OT).",
+              "Information assets, which could include personally identifiable information or other sensitive information, are stored for long periods of time with no clear business need or retention policy.",
+              "Knowledge critical to the management, operation, or recovery of essential functions is held by one or two key individuals with no succession plan.",
+              "Asset inventories are neglected and out of date."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        }
+      ]
+    },
+    "Principle A4 - Supply Chain": {
+      "IGPs": [
+        {
+          "id": "A4.1",
+          "name": "Supply Chain",
+          "text": "The organisation understands and manages security risks to networks and information systems supporting the operation of essential functions that arise as a result of dependencies on external suppliers. This includes ensuring that appropriate measures are employed where third party services are used.",
+          "status": {
+            "Achieved": [
+              "You have a deep understanding of your supply chain, including subcontractors and the wider risks it faces. You consider factors such as supplier’s partnerships, competitors, nationality and other organisations with which they subcontract. This informs your risk assessment and procurement processes.",
+              "Your approach to supply chain risk management considers the risks to your essential functions arising from supply chain subversion by capable and well-resourced attackers.",
+              "You have confidence that information shared with suppliers that is essential to the operation of your function is appropriately protected from sophisticated attacks.",
+              "You understand which contracts are relevant and you include appropriate security obligations in relevant contracts. You have a proactive approach to contract management which may include a contract management plan for relevant contracts",
+              "Customer / supplier ownership of responsibilities are laid out in contracts.",
+              "All network connections and data sharing with third parties are managed effectively and proportionately.",
+              "When appropriate, your incident management process and that of your suppliers provide mutual support in the resolution of incidents."
+            ],
+            "Partially Achieved": [
+              "You understand which contracts are relevant and you include appropriate security obligations in relevant contracts.",
+              "You understand the general risks suppliers may pose to your essential functions.",
+              "You know the extent of your supply chain for essential functions, including subcontractors.",
+              "You are aware of all third-party connections and have assurance that they meet your organisation’s security requirements.",
+              "Your approach to security incident management considers incidents that might arise in your supply chain.",
+              "You have confidence that information shared with suppliers that is necessary for the operation of your essential function is appropriately protected from well-known attacks and known vulnerabilities."
+            ],
+            "Not Achieved": [
+              "You do not know what data belonging to you is held by suppliers, or how it is managed.",
+              "Elements of the supply chain for essential functions are subcontracted and you have little or no visibility of the sub-contractors.",
+              "You have no understanding of which contracts are relevant and / or relevant contracts do not specify appropriate security obligations.",
+              "Suppliers have access to systems that provide your essential function that is unrestricted, not monitored or bypasses your own security controls."
+            ]
+          },
+          "contextualized_to_park": "In Cyberland Park, this means clear staff rules for handling ticket data at kiosks and online bookings.",
+          "related_mitre": [
+            {
+              "technique_id": "T1078",
+              "name": "Valid Accounts",
+              "explanation": "Weak account policies at kiosks could allow attackers to abuse valid credentials."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
