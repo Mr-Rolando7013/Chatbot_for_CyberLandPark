@@ -177,7 +177,7 @@
               "Assurance is assumed because there have been no known problems to date."
             ]
           },
-          "contextualized_to_park": "In Cyberland Park, this means regularly testing whether safety systems like power backups, dino containment protocols, and access controls actually work as expected, rather than relying on vendor promises or assumptions that 'nothing has gone wrong so far'.",
+          "contextualized_to_park": "In Cyberland Park, this means regularly testing whether safety systems like power backups, dinosaur containment protocols, and access controls actually work as expected, rather than relying on vendor promises or assumptions that 'nothing has gone wrong so far'.",
           "related_mitre": [
             {
               "technique_id": "T0813",
@@ -263,7 +263,7 @@
               "Suppliers have access to systems that provide your essential function that is unrestricted, not monitored or bypasses your own security controls."
             ]
           },
-          "contextualized_to_park": "In Cyberland Park, this means carefully managing risks from third-party suppliers—like those maintaining power systems or dino monitoring software—ensuring they follow strict security rules, have limited and monitored access, and coordinate with the park on incident response.",
+          "contextualized_to_park": "In Cyberland Park, this means carefully managing risks from third-party suppliers—like those maintaining power systems or dinosaur monitoring software—ensuring they follow strict security rules, have limited and monitored access, and coordinate with the park on incident response.",
           "related_mitre": [
             {
               "technique_id": "T0813",

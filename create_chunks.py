@@ -6,6 +6,14 @@ principles = ["Principle A1 - Governance", "Principle A2 - Risk Management", "Pr
               "Principle B2 - Identity and Access Control", "Principle B3 - Data Security", "Principle B4 - System Security", "Principle B5 - Resilient Networks and Systems", "Principle B6 - Staff Awareness and Training", 
               "Principle C1 - Security Monitoring", "Principle C2 - Proactive Security Event Discovery", "Principle D1 - Response and Recovery Planning", "Principle D2 - Lessons Learned"]
 
+def flatten_threats(threats_list):
+    """
+    Turn list of threat dicts into a readable string.
+    """
+    return "; ".join(
+        f"{t['technique_id']} - {t['name']}: {t['explanation']}" for t in threats_list
+    )
+
 def main():
     dumped_data = []
     temp = {}
@@ -27,6 +35,7 @@ def main():
                         text = igp['text']
                         contextualized_to_park = igp['contextualized_to_park']
                         related_mitre = igp['related_mitre']
+                        #myMitre = flatten_threats(igp['related_mitre'])
 
                         for achieved in igp["status"]["Achieved"]:
                             temp = {
