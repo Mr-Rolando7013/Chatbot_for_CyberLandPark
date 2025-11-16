@@ -6,6 +6,8 @@ This is a personalized chatbot for Cyberland CAF to align thmselves with the Cyb
 
 To run this, you need to use google collab since we're using a big model. Just import the CAF_CHATBOT.ipynb file to google collabs and be sure to use the caf_chunks.json file as information for the chatbot.
 
+### **Please read the file: caf_clean.json to understand our comprehension of the CAF, Mitre and Cyberland Park. **
+
 ## **Application examples:**
 
 <img width="1135" height="425" alt="Screenshot 2025-10-15 131330" src="https://github.com/user-attachments/assets/74766533-f075-4de0-a26e-97fda83b5045" />
